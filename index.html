@@ -1,0 +1,62 @@
+<!--<!DOCTYPE html>
+<html>
+    <title>Calculator</title>
+    <header>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <center><h1>BMI Calculator</h1></center>
+        <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    </header>
+    <body>
+        <div class="wrapper">
+            <p>
+                 height in cm:<input type="text" id="height" ><br><span id="height_error">
+
+                 </p>
+            <p> 
+                weight in kg:<input type="text" id="weight"><br><span id="weight_error">
+                    
+                </p>
+                <button onclick=addEventListener()>Calculate</button>
+                <p id="output">Normal:</p>
+        </div>
+    </body>
+</html>-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <center><h1>BMI Calculator</h1></center>
+    </header>
+    <div class="wrapper">
+        <p>
+            Height: <input type="text" id="height"><br>
+            <span id="height_error"></span>
+            <select id="heicalc">
+                <option>meter</option>
+                <option>centimeter</option>
+            </select>
+        </p>
+        <p>
+            Weight: <input type="text" id="weight"><br>
+            <span id="weight_error"></span>
+            <select id="weicalc">
+                <option>kilogram</option>
+                <option>pounds</option>
+            </select>
+        </p>
+        <button id="calculateBtn">Calculate</button>
+        <p id="output">Normal:</p>
+    </div>
+</body>
+</html>
